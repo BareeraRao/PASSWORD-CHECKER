@@ -1,0 +1,75 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 28px;
+    color: #004080;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input styling */
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-top: 8px;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+input[type="password"]:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Strength message styling */
+#strengthMessage {
+    margin-top: 20px;
+}
+
+#strengthText {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#strengthValue {
+    font-size: 22px;
+    display: inline-block;
+}
